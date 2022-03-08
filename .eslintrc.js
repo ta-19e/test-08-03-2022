@@ -10,6 +10,6 @@ module.exports = {
     },
     "rules": {
         quotes: ["error", "double", "avoid-escape"],
-        "no-plusplus": "off"
+        noplusplus: ["off"]
     }
 }
