@@ -14,5 +14,6 @@ module.exports = {
 		'no-console': 'error',
 		indent: ['error', 'tab'],
 		'no-tabs': 'off',
+		'no-undef': 'off',
 	},
 };
