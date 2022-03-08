@@ -31,6 +31,8 @@ jobs:
         uses: stefanoeb/jest-action@1.0.3
         with:
           jestArgs: /sum.test.js
+
+      - name: test coverage report
         uses: ArtiomTr/jest-coverage-report-action@v2
         with:
           test-script: npm test
