@@ -12,7 +12,7 @@ module.exports = {
 	},
 	rules: {
 		'no-console': 'error',
-		indent: ['error', 'tab', 2],
+		indent: ['error', 'tab'],
 		'no-tabs': 'off',
 	},
 };
