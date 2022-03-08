@@ -15,5 +15,6 @@ module.exports = {
 		indent: ['error', 'tab'],
 		'no-tabs': 'off',
 		'no-undef': 'off',
+		'no-restricted-globals': 'off',
 	},
 };
