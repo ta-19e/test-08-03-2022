@@ -11,5 +11,7 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-console": 2,
+        "no-undef": 0
     }
 }
