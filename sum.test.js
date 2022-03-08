@@ -5,5 +5,5 @@ test('0 + 7 should equal 7', () => {
 });
 
 test('"B" + 7 throw error', () => {
-    expect(() => sum("B", 7).value()).toThrow(Error);
+  expect(() => sum('B', 7).value()).toThrow(Error);
 });
