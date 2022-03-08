@@ -11,15 +11,21 @@ on:
   workflow_dispatch:
 
 jobs:
-  eslint:
-    build:
+  build:
+    name: Run ESLint
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2   
-    - name: Run ESLint
-      run: eslint . --ext .js,.jsx
+      
+      # Check out the repository
+      - uses: actions/checkout@v1
 
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      # Install Node.js
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      # Install your dependencies
+      - run: npm ci
+
+      # Run ESLint
+      - uses: eslint/github-action@v0
