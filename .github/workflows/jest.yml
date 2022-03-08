@@ -2,9 +2,9 @@ name: Jest
 
 on: 
  push:
-  branches: [leib-branch-07]
+  branches: [master]
  pull_request:
-  branches: [leib-branch-07]
+  branches: [master]
 jobs:
   build:
     runs-on: ubuntu-latest
