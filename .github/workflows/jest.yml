@@ -13,7 +13,7 @@ jobs:
     - uses: actions/setup-node@v2
       with:
        node-version: 16
-    - name: Install modules for yarn
+    - name: Install modules
       run: npm ci
     - name: Run jests
       run: npm run test
