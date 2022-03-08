@@ -24,17 +24,18 @@ jobs:
         with:
           node-version: 12
 
+      - name: Install Node.js dependencies
+        run: npm install
+
       # Install your dependencies
       - run: npm ci
 
-      - name: Install Node.js dependencies
-        run: npm install
+        name: Run ESLint
+        run: npm run lint
 
       - name: Run linters
         uses: wearerequired/lint-action@v1
         with:
           github_token: ${{ secrets.github_token }}
           # Enable linters
-          eslint: true
-      - name: Jest
-        run: npm run test
+          eslint: true  
