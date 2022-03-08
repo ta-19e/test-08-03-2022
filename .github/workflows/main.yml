@@ -31,11 +31,13 @@ jobs:
         uses: stefanoeb/jest-action@1.0.3
         with:
           jestArgs: /sum.test.js
-
-      - name: Download all test artifacts
         uses: ArtiomTr/jest-coverage-report-action@v2
         with:
           test-script: npm test
-          coverage-file: report.json
-          base-coverage-file: report.json
+
+      # - name: Download all test artifacts
+        
+        
+      #     coverage-file: report.json
+      #     base-coverage-file: report.json
 
