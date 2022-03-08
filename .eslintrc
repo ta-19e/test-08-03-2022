@@ -10,9 +10,11 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "ignorePatterns": ["sum.test.js", "example.js", "sum.js"],
+    // "ignorePatterns": ["sum.test.js", "example.js", "sum.js"],
     "rules": {
       "no-console": "error",
-      "eqeqeq": "off"
+      "eqeqeq": "off",
+      "no-restricted-globals": "off",
+      "import/extensions": "off"
     }
   }
