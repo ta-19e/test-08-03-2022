@@ -1,7 +1,7 @@
 const chalk = require('chalk');
 const assert = require('assert');
 
-const sum = require('./sum.js');
+const sum = require('./sum');
 
 // test how function works
 console.log(sum(1, 3));
