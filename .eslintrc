@@ -11,7 +11,7 @@
         "sourceType": "module"
     },
     "rules": {
-      "no-console": "on",
+      "no-console": "error",
       "eqeqeq": "ignore"
     }
   }
