@@ -10,7 +10,7 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "ignorePatterns": ["sum.test.js"],
+    "ignorePatterns": ["sum.test.js", "example.js", "sum.js"],
     "rules": {
       "no-console": "error",
       "eqeqeq": "off"
