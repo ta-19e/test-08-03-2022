@@ -1,3 +1,4 @@
+
 {
     "env": {
         "browser": true,
@@ -11,6 +12,7 @@
         "sourceType": "module"
     },
     "rules": {
-        "quotes": ["errors", "double", "avoid-escape"]
+        "quotes": ["errors", "double", "avoid-escape"],
+        "no-undef": ["off"]
     }
 }
