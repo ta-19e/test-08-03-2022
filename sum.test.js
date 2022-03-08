@@ -1,13 +1,8 @@
-const sum = require('./sum');
+const sum = require("./sum.js")
 
-test('adds 1 + 5 to equal 6', () => {
-    a = 1,
-    b = 5,
-  expect(sum(a, b)).toBe(6);
-if (isNaN(a)) {
-    throw new Error("first parameeter is not number")
-}
-if (isNaN(b)) {
-    throw new Error("2nd parameeter is not number")
-}
-});
+test("1 + 5 = 6", () =>{
+    expect(sum(1, 5)).toBe(6);
+})
+test("cannot add strings to numbers", () =>{
+    expect(() => {sum("word", 6)}).toThrow();
+})
