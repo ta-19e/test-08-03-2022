@@ -23,6 +23,13 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
+      - name: npm installation
+        run: npm install -g npm
+      
+      - name: npm version
+        run: npm -v
+
+
       # Runs a single command using the runners shell
       - name: Jest
         run: npm run test
