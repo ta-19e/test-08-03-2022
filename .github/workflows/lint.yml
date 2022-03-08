@@ -4,9 +4,9 @@ name: Lint
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ siim-15 ]
+    branches: [ siim ]
   pull_request:
-    branches: [ siim-15 ]
+    branches: [ siim ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
