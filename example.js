@@ -1,3 +1,4 @@
+/* eslint no-console: "off" */
 const chalk = require("chalk");
 const assert = require("assert");
 
