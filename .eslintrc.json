@@ -12,6 +12,8 @@
     },
     "rules": {
         "no-console": "off",
-        "indent": ["error", 2]
+        "indent": ["error", 2],
+        "import/extensions": "off",
+        "no-restricted-globals": "off"
     }
 }
