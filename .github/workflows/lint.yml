@@ -33,3 +33,6 @@ jobs:
 
       - name: Run Jest
         run: npm run test
+
+      - name: Coverage
+        uses: ArtiomTr/jest-coverage-report-action@v2
