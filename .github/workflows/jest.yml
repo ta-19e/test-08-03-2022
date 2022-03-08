@@ -16,4 +16,4 @@ jobs:
     - name: Install modules for yarn
       run: npm ci
     - name: Run jests
-      run: npm run jest
+      run: npm run test
