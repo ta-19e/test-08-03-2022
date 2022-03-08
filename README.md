@@ -33,7 +33,8 @@
     - Other than that, you are free to modify lint settings as you see fit.
 - add GitHub actions to run eslint
 - add [jest](https://jestjs.io/) to project and write at-least one test for [`sum.js`](./sum.js).
-    - use your student number in tahvel as input, for example when number would be 81 then `8+1=82`
+    - use your student number in tahvel as input, for example when number would be 81 then `8+1=9`
+    - add test that checks that exception to thrown when input is not number (example: string)
 - add GitHub actions to run test ([jest](https://jestjs.io/))
 - when running Tests in GitHub actions, save code coverage report into github artifact 
 - add CODEOWNERS file:
