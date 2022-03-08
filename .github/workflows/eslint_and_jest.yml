@@ -28,9 +28,7 @@ jobs:
       - name: Install packages
         run: |
           npm install
-          npm install eslint --save-dev
-          npm init @eslint/config
-          npm install --save-dev jest
+          npm -v
 
       - name: Run eslint
         run: npm run lint
@@ -42,4 +40,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: code-coverage-report
-          path: output/test/code-coverage.html
+          path: coverage
