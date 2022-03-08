@@ -6,7 +6,7 @@ extends:
   - airbnb-base
 parserOptions:
   ecmaVersion: latest
-rules: {
-  no-console: on,
-  no plus-plus: off
-}
+rules:
+  no-console: on
+  no-plusplus: off
+
