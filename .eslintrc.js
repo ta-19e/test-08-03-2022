@@ -15,5 +15,7 @@ module.exports = {
     'import/extensions': 'off',
     'no-restricted-globals': 'off',
     'max-len': ['error', { code: 80 }],
+    'no-unused-expressions': 'off',
+    'no-undef': 'off',
   },
 };
