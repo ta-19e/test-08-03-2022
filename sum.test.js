@@ -4,6 +4,6 @@ test('0 + 7 should equal 7', () => {
   expect(sum(0, 7)).toBe(7);
 });
 
-test('b + 7 throw error', () => {
-    expect((sum(b, 7)).value()).toThrowError(Error);
+test('"B" + 7 throw error', () => {
+    expect(() => sum("B", 7).value()).toThrow(Error);
 });
