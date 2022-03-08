@@ -5,5 +5,5 @@ test('adds 0 + 5 to equal 5', () => {
 });
 
 test('throws exception because of strings', () => {
-  expect(() => sum('hello', 'world').value()).toThrowError(Error);
+  expect(() => sum('hello', 'world')).toThrowError(Error);
 });
