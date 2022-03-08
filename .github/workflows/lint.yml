@@ -1,0 +1,16 @@
+name: Lint
+
+on: 
+ push:
+  branches: [leib-branch-07]
+ pull_request:
+  branches: [leib-branch-07]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install modules
+      run: npm
+    - name: Run ESLint
+      run: eslint . --ext .js,.jsx,.ts,.tsx
