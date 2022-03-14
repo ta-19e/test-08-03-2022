@@ -20,3 +20,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run test
+    - uses: actions/upload-artifact@v3
+      with:
+        name: coverage-report
+        path: coverage
