@@ -1,7 +1,7 @@
-                @eritikass
+*              @eritikass
 
-*sum.test.js    @RaitBoach
-*.eslintrc      @RaitBoach
-*.gitlab-ci.yml @RaitBoach
-*/.github       @RaitBoach
-*/coverage      @RaitBoach
+sum.test.js    @RaitBoach
+.eslintrc      @RaitBoach
+.gitlab-ci.yml @RaitBoach
+/.github       @RaitBoach
+/coverage      @RaitBoach
